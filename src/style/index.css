@@ -1,0 +1,25 @@
+.header {
+  padding: 10px 15px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__container-link {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #0082ff;
+  color: black;
+  text-decoration: none;
+  transition: background-color .2s ease-out;
+}
+
+.header__container-link:hover {
+  background-color: #3d9fff;
+}
+
+.header__container-link:not(:last-child){
+  margin-right: 25px;
+}
